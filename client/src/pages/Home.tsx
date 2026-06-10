@@ -267,7 +267,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-gray-700 pt-8 text-center text-sm">
-            <p>&copy; 2026 {BUSINESS_NAME}. Todos los derechos reservados.</p>
+            <p>&copy; 2026 Viandas PG. Todos los derechos reservados.</p>
           </div>
         </div>
       </footer>
