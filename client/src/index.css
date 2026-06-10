@@ -53,12 +53,12 @@
   --chart-4: #FF8C42;
   --chart-5: #25D366;
   --radius: 0.65rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.235 0.015 65);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.235 0.015 65);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.235 0.015 65);
+  --background: oklch(0.975 0.012 75);
+  --foreground: oklch(0.2 0.02 55);
+  --card: oklch(0.99 0.008 75);
+  --card-foreground: oklch(0.2 0.02 55);
+  --popover: oklch(0.99 0.008 75);
+  --popover-foreground: oklch(0.2 0.02 55);
   --secondary: oklch(0.98 0.001 286.375);
   --secondary-foreground: oklch(0.4 0.015 65);
   --muted: oklch(0.967 0.001 286.375);

@@ -122,9 +122,9 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       {/* Header/Navigation */}
-      <header className="sticky top-0 z-50 bg-white shadow-sm border-b border-gray-100">
+      <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm shadow-sm border-b border-orange-100">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <img
@@ -147,7 +147,7 @@ export default function Home() {
       <HeroCarousel onOrderClick={handleWhatsAppContact} />
 
       {/* Features Section */}
-      <section className="bg-gray-50 py-12 border-b border-gray-200">
+      <section className="bg-orange-50/60 py-12 border-b border-orange-100">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="flex items-start gap-4">
@@ -155,8 +155,8 @@ export default function Home() {
                 <Truck className="h-6 w-6 text-orange-600" />
               </div>
               <div>
-                <h3 className="font-bold text-gray-900 mb-1">Entrega Rápida</h3>
-                <p className="text-gray-600 text-sm">Recibe tu pedido en el menor tiempo posible</p>
+                <h3 className="font-bold text-foreground mb-1">Entrega Rápida</h3>
+                <p className="text-muted-foreground text-sm">Recibe tu pedido en el menor tiempo posible</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
@@ -164,8 +164,8 @@ export default function Home() {
                 <span className="text-lg">👨‍🍳</span>
               </div>
               <div>
-                <h3 className="font-bold text-gray-900 mb-1">Hecho en Casa</h3>
-                <p className="text-gray-600 text-sm">Ingredientes frescos y recetas caseras</p>
+                <h3 className="font-bold text-foreground mb-1">Hecho en Casa</h3>
+                <p className="text-muted-foreground text-sm">Ingredientes frescos y recetas caseras</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
@@ -173,8 +173,8 @@ export default function Home() {
                 <Clock className="h-6 w-6 text-blue-600" />
               </div>
               <div>
-                <h3 className="font-bold text-gray-900 mb-1">Disponible Todos los Días</h3>
-                <p className="text-gray-600 text-sm">Lunes a domingo, de 10:00 a 22:00</p>
+                <h3 className="font-bold text-foreground mb-1">Disponible Todos los Días</h3>
+                <p className="text-muted-foreground text-sm">Lunes a domingo, de 10:00 a 22:00</p>
               </div>
             </div>
           </div>
@@ -184,12 +184,12 @@ export default function Home() {
       {/* Catalog Section */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-gray-900 mb-2">Nuestro Catálogo</h2>
-          <p className="text-gray-600 mb-8">Selecciona la categoría que te interesa</p>
+          <h2 className="text-3xl font-bold text-foreground mb-2">Nuestro Catálogo</h2>
+          <p className="text-muted-foreground mb-8">Selecciona la categoría que te interesa</p>
 
           {/* Category Tabs */}
           <Tabs value={activeCategory} onValueChange={setActiveCategory} className="w-full">
-            <TabsList className="grid w-full grid-cols-3 mb-8 bg-gray-100 p-1">
+            <TabsList className="grid w-full grid-cols-3 mb-8 bg-orange-100/70 p-1">
               {categories.map((category) => (
                 <TabsTrigger
                   key={category.id}
