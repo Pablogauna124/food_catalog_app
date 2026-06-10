@@ -206,15 +206,8 @@ export const products: Product[] = [
     image: '/manus-storage/Screenshot_20260610_171853_1dbfe029.png',
     badge: 'Nuevo'
   },
-  {
-    id: 'dessert-combo',
-    name: 'Combo de Postres',
-    description: 'Selección de postres: brownies, macarons y croissants de chocolate',
-    price: 290,
-    category: 'sweet',
-    image: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663750402534/PDg6cLEPxJFmuTjguu3mLC/desserts-52vFhZuUaZPasYtLMZTwLJ.webp'
-  }
 ];
+
 
 export const categories = [
   { id: 'fast-food', name: 'COMIDAS', icon: '🍔' },
