@@ -99,6 +99,15 @@ export const products: Product[] = [
     badge: 'Nuevo'
   },
   {
+    id: 'roast-chicken-herbs',
+    name: 'Pollo al Horno con Limón y Hierbas',
+    description: 'Pollo al horno dorado con marinada de limón, ajo y hierbas aromáticas frescas, jugoso por dentro y crocante por fuera',
+    price: 580,
+    category: 'fast-food',
+    image: '/manus-storage/Screenshot_20260610_161413_42853336.png',
+    badge: 'Nuevo'
+  },
+  {
     id: 'dessert-combo',
     name: 'Combo de Postres',
     description: 'Selección de postres: brownies, macarons y croissants de chocolate',
