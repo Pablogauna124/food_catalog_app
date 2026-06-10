@@ -51,13 +51,25 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative h-96 overflow-hidden bg-gradient-to-br from-orange-50 to-orange-100">
-        <img
-          src="https://d2xsxph8kpxj0f.cloudfront.net/310519663750402534/PDg6cLEPxJFmuTjguu3mLC/hero-comidas-V38ckWfeXWYAmEah5QWsHH.webp"
-          alt="Hero"
-          className="absolute inset-0 w-full h-full object-cover opacity-90"
-        />
-        <div className="absolute inset-0 bg-black/30"></div>
+      <section className="relative h-96 overflow-hidden bg-gray-900">
+        {/* Two images side by side as hero background */}
+        <div className="absolute inset-0 flex">
+          <div className="w-1/2 overflow-hidden">
+            <img
+              src="/manus-storage/Screenshot_20260610_161413_42853336.png"
+              alt="Pollo al Horno con Limón y Hierbas"
+              className="w-full h-full object-cover opacity-80"
+            />
+          </div>
+          <div className="w-1/2 overflow-hidden">
+            <img
+              src="/manus-storage/Screenshot_20260610_161231_eb47a951.png"
+              alt="Pollo con Salsa de Mostaza y Miel"
+              className="w-full h-full object-cover opacity-80"
+            />
+          </div>
+        </div>
+        <div className="absolute inset-0 bg-black/40"></div>
         <div className="relative container mx-auto px-4 h-full flex flex-col justify-center items-start">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 max-w-2xl">
             Comida Deliciosa, Hecha con Amor
