@@ -90,6 +90,15 @@ export const products: Product[] = [
     badge: 'Nuevo'
   },
   {
+    id: 'spaghetti-bolognese',
+    name: 'Fideos con Salsa Bolognesa',
+    description: 'Fideos al dente con salsa bolognesa casera de carne, tomate, albahaca fresca y queso parmesano',
+    price: 460,
+    category: 'fast-food',
+    image: '/manus-storage/Screenshot_20260610_161430_65c0c6cb.png',
+    badge: 'Nuevo'
+  },
+  {
     id: 'dessert-combo',
     name: 'Combo de Postres',
     description: 'Selección de postres: brownies, macarons y croissants de chocolate',
