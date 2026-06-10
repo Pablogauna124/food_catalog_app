@@ -53,5 +53,5 @@ export const categories = [
 ];
 
 // WhatsApp configuration
-export const WHATSAPP_NUMBER = '5491234567890'; // Replace with your actual WhatsApp number
+export const WHATSAPP_NUMBER = '3777391015'; // WhatsApp number for orders
 export const BUSINESS_NAME = 'Sabor en Casa';
