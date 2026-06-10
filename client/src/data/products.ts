@@ -180,6 +180,15 @@ export const products: Product[] = [
     badge: 'Nuevo'
   },
   {
+    id: 'cream-peach-dulce-de-leche',
+    name: 'Postre de Crema, Durazno y Dulce de Leche',
+    description: 'Postre en vasito con capas de dulce de leche, durazno en almíbar y crema chantilly. Dulce, fresco y artesanal',
+    price: 270,
+    category: 'sweet',
+    image: '/manus-storage/Screenshot_20260610_171935_1a79e192.png',
+    badge: 'Nuevo'
+  },
+  {
     id: 'chocolate-dessert',
     name: 'Postre de Chocolate',
     description: 'Postre en vasito con capas de bizcocho de chocolate, crema de chocolate y perlas crocantes. Irresistible y artesanal',
