@@ -180,6 +180,15 @@ export const products: Product[] = [
     badge: 'Nuevo'
   },
   {
+    id: 'choco-temptation-dessert',
+    name: 'Tentación de Chocolate',
+    description: 'Postre en vasito con base de bizcocho, capa de dulce de leche, mousse de chocolate y crema chantilly. Goloso e irresistible',
+    price: 290,
+    category: 'sweet',
+    image: '/manus-storage/Screenshot_20260610_172001_77af8360.png',
+    badge: 'Nuevo'
+  },
+  {
     id: 'cream-peach-dulce-de-leche',
     name: 'Postre de Crema, Durazno y Dulce de Leche',
     description: 'Postre en vasito con capas de dulce de leche, durazno en almíbar y crema chantilly. Dulce, fresco y artesanal',
