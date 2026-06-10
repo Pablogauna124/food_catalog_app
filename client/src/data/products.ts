@@ -63,6 +63,15 @@ export const products: Product[] = [
     badge: 'Nuevo'
   },
   {
+    id: 'rice-chicken-curry',
+    name: 'Arroz con Pollo al Curry',
+    description: 'Arroz aromático con pollo tierno cocinado en salsa de curry con verduras frescas y especias',
+    price: 540,
+    category: 'fast-food',
+    image: '/manus-storage/Screenshot_20260610_161526_326d0806.png',
+    badge: 'Nuevo'
+  },
+  {
     id: 'dessert-combo',
     name: 'Combo de Postres',
     description: 'Selección de postres: brownies, macarons y croissants de chocolate',
