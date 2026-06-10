@@ -99,6 +99,15 @@ export const products: Product[] = [
     badge: 'Nuevo'
   },
   {
+    id: 'gnocchi-potato',
+    name: 'Ñoquis de Papa',
+    description: 'Ñoquis caseros de papa con salsa a elección: bolognesa de carne, bechamel cremosa o salsa de crema. Suaves y esponjosos',
+    price: 490,
+    category: 'fast-food',
+    image: '/manus-storage/Screenshot_20260610_160920_ca81ca06.png',
+    badge: 'Nuevo'
+  },
+  {
     id: 'beef-potatoes-carrots',
     name: 'Carne con Papas y Zanahorias',
     description: 'Guiso casero de carne tierna cocida a fuego lento con papas y zanahorias en caldo sabroso, reconfortante y nutritivo',
