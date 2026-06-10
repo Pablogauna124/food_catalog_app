@@ -72,6 +72,15 @@ export const products: Product[] = [
     badge: 'Nuevo'
   },
   {
+    id: 'beef-stew-potatoes',
+    name: 'Estofado de Carne con Papas',
+    description: 'Estofado casero de carne tierna cocida a fuego lento con papas, zanahorias y hierbas aromáticas',
+    price: 550,
+    category: 'fast-food',
+    image: '/manus-storage/Screenshot_20260610_161511_f4982cf6.png',
+    badge: 'Nuevo'
+  },
+  {
     id: 'dessert-combo',
     name: 'Combo de Postres',
     description: 'Selección de postres: brownies, macarons y croissants de chocolate',
