@@ -99,6 +99,15 @@ export const products: Product[] = [
     badge: 'Nuevo'
   },
   {
+    id: 'pasta-salad-tuna',
+    name: 'Ensalada de Pasta con Atún',
+    description: 'Ensalada fría de pasta con atún, choclo, arvejas, pimiento rojo, aceitunas y aderezo casero. Fresca y nutritiva',
+    price: 420,
+    category: 'fast-food',
+    image: '/manus-storage/Screenshot_20260610_161208_7dfaa8c1.png',
+    badge: 'Nuevo'
+  },
+  {
     id: 'chicken-honey-mustard',
     name: 'Pollo con Salsa de Mostaza y Miel',
     description: 'Pechuga de pollo jugosa bañada en salsa cremosa de mostaza y miel, acompañada de cebollas caramelizadas y hierbas frescas',
