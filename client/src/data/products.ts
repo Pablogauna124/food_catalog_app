@@ -40,7 +40,7 @@ export const products: Product[] = [
     name: 'Pollo al Limón con Arroz',
     description: 'Pollo jugoso marinado en limón fresco, acompañado de arroz blanco esponjoso y guarnición de limón',
     price: 520,
-    category: 'savory',
+    category: 'fast-food',
     image: '/manus-storage/Screenshot_20260610_161621_93cc5762.png',
     badge: 'Nuevo'
   },
