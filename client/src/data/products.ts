@@ -45,6 +45,15 @@ export const products: Product[] = [
     badge: 'Nuevo'
   },
   {
+    id: 'meatballs-tomato',
+    name: 'Albóndigas de Carne con Salsa de Tomate',
+    description: 'Albóndigas caseras de carne molida, cocidas en salsa de tomate casera con hierbas aromáticas',
+    price: 480,
+    category: 'fast-food',
+    image: '/manus-storage/Screenshot_20260610_161610_597bf84c.png',
+    badge: 'Nuevo'
+  },
+  {
     id: 'dessert-combo',
     name: 'Combo de Postres',
     description: 'Selección de postres: brownies, macarons y croissants de chocolate',
