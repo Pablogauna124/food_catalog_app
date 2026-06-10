@@ -190,8 +190,8 @@ export default function Home() {
             </div>
             <div>
               <h3 className="text-white font-bold mb-4">Contacto</h3>
-              <p className="text-sm">WhatsApp: +54 9 1234 56-7890</p>
-              <p className="text-sm">Email: info@saborencasa.com</p>
+              <p className="text-sm">WhatsApp: +54 9 3777 391015</p>
+              <p className="text-sm">Email: pablojoelgauna@gmail.com</p>
             </div>
           </div>
           <div className="border-t border-gray-700 pt-8 text-center text-sm">

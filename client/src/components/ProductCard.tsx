@@ -11,7 +11,7 @@ export function ProductCard({ product }: ProductCardProps) {
   const [isHovering, setIsHovering] = useState(false);
 
   const handleWhatsAppClick = () => {
-    const message = `Hola, me interesa ordenar: *${product.name}* - $${product.price}`;
+    const message = `Hola, me interesa ordenar: *${product.name}*`;
     const encodedMessage = encodeURIComponent(message);
     const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMessage}`;
     window.open(whatsappUrl, '_blank');
@@ -50,20 +50,15 @@ export function ProductCard({ product }: ProductCardProps) {
           {product.description}
         </p>
 
-        {/* Price and Button */}
-        <div className="flex items-center justify-between">
-          <span className="text-2xl font-bold text-orange-600">
-            ${product.price}
-          </span>
-          <Button
-            onClick={handleWhatsAppClick}
-            className="bg-green-500 hover:bg-green-600 text-white rounded-full p-2 transition-all duration-200 active:scale-95"
-            size="icon"
-            title="Ordenar por WhatsApp"
-          >
-            <MessageCircle className="h-5 w-5" />
-          </Button>
-        </div>
+        {/* Order Button */}
+        <Button
+          onClick={handleWhatsAppClick}
+          className="w-full bg-green-500 hover:bg-green-600 text-white rounded-full flex items-center justify-center gap-2 transition-all duration-200 active:scale-95"
+          title="Ordenar por WhatsApp"
+        >
+          <MessageCircle className="h-4 w-4" />
+          Ordenar
+        </Button>
       </div>
     </div>
   );
