@@ -99,6 +99,15 @@ export const products: Product[] = [
     badge: 'Nuevo'
   },
   {
+    id: 'chicken-honey-mustard',
+    name: 'Pollo con Salsa de Mostaza y Miel',
+    description: 'Pechuga de pollo jugosa bañada en salsa cremosa de mostaza y miel, acompañada de cebollas caramelizadas y hierbas frescas',
+    price: 560,
+    category: 'fast-food',
+    image: '/manus-storage/Screenshot_20260610_161231_eb47a951.png',
+    badge: 'Nuevo'
+  },
+  {
     id: 'empanadas-horno-fritas',
     name: 'Empanadas al Horno / Fritas',
     description: 'Empanadas caseras disponibles al horno o fritas, con rellenos a elección: carne, pollo, jamón y queso. Crujientes por fuera y jugosas por dentro',
