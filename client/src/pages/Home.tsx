@@ -251,8 +251,8 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div>
               <h3 className="text-white font-bold mb-4">Sobre Nosotros</h3>
-              <p className="text-sm">
-                {BUSINESS_NAME} es tu opción para comida deliciosa hecha con ingredientes frescos y amor.
+              <p className="text-sm leading-relaxed">
+                Viandas PG nació con una idea simple: ofrecer comidas caseras, ricas y confiables para acompañarte en cada momento del día. Preparamos viandas con ingredientes de calidad, dedicación y el compromiso de brindar una opción práctica sin resignar sabor. Porque comer bien también puede ser fácil. 🍽️✨
               </p>
             </div>
             <div>
