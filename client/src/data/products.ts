@@ -99,6 +99,15 @@ export const products: Product[] = [
     badge: 'Nuevo'
   },
   {
+    id: 'chicken-wok-vegetables',
+    name: 'Pollo con Vegetales al Wok',
+    description: 'Pollo salteado al wok con pimientos, chauchas y cebolla en salsa agridulce, tierno y lleno de sabor',
+    price: 530,
+    category: 'fast-food',
+    image: '/manus-storage/Screenshot_20260610_161321_f5dddda1.png',
+    badge: 'Nuevo'
+  },
+  {
     id: 'roast-chicken-herbs',
     name: 'Pollo al Horno con Limón y Hierbas',
     description: 'Pollo al horno dorado con marinada de limón, ajo y hierbas aromáticas frescas, jugoso por dentro y crocante por fuera',
