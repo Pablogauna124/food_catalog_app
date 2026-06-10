@@ -99,6 +99,15 @@ export const products: Product[] = [
     badge: 'Nuevo'
   },
   {
+    id: 'beef-potatoes-carrots',
+    name: 'Carne con Papas y Zanahorias',
+    description: 'Guiso casero de carne tierna cocida a fuego lento con papas y zanahorias en caldo sabroso, reconfortante y nutritivo',
+    price: 540,
+    category: 'fast-food',
+    image: '/manus-storage/Screenshot_20260610_161014_93f4e820.png',
+    badge: 'Nuevo'
+  },
+  {
     id: 'beef-tacos',
     name: 'Tacos de Carne Molida',
     description: 'Tacos crujientes rellenos de carne molida sazonada con especias, listos para acompañar con tus ingredientes favoritos',
