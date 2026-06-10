@@ -180,6 +180,15 @@ export const products: Product[] = [
     badge: 'Nuevo'
   },
   {
+    id: 'chocolate-dessert',
+    name: 'Postre de Chocolate',
+    description: 'Postre en vasito con capas de bizcocho de chocolate, crema de chocolate y perlas crocantes. Irresistible y artesanal',
+    price: 280,
+    category: 'sweet',
+    image: '/manus-storage/Screenshot_20260610_171853_1dbfe029.png',
+    badge: 'Nuevo'
+  },
+  {
     id: 'dessert-combo',
     name: 'Combo de Postres',
     description: 'Selección de postres: brownies, macarons y croissants de chocolate',
