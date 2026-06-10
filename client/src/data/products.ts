@@ -11,15 +11,6 @@ export interface Product {
 export const products: Product[] = [
   // Fast Food
   {
-    id: 'burger-combo',
-    name: 'Burger Premium',
-    description: 'Hamburguesa con carne 100% natural, queso cheddar, lechuga fresca y tomate',
-    price: 450,
-    category: 'fast-food',
-    image: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663750402534/PDg6cLEPxJFmuTjguu3mLC/burger-combo-dcmP7hfvhBgzLeDGykp3tQ.webp',
-    badge: 'Favorito'
-  },
-  {
     id: 'empanadas-set',
     name: 'Empanadas Caseras (6 piezas)',
     description: 'Empanadas recién horneadas con relleno de carne, cebolla y especias',
