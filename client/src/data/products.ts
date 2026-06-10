@@ -55,7 +55,7 @@ export const products: Product[] = [
 ];
 
 export const categories = [
-  { id: 'fast-food', name: 'Comidas Rápidas', icon: '🍔' },
+  { id: 'fast-food', name: 'COMIDAS', icon: '🍔' },
   { id: 'savory', name: 'Viandas Saladas', icon: '🥗' },
   { id: 'sweet', name: 'Viandas Dulces', icon: '🍰' }
 ];
