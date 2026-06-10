@@ -115,7 +115,7 @@ export default function Home() {
   );
 
   const handleWhatsAppContact = () => {
-    const message = `Hola, quisiera conocer más sobre ${BUSINESS_NAME}`;
+    const message = `¡Hola! Me interesa conocer el menú, precios y opciones de viandas de PG. 🍽️😊`;
     const encodedMessage = encodeURIComponent(message);
     const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMessage}`;
     window.open(whatsappUrl, "_blank");
