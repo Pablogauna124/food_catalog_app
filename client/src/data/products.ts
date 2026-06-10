@@ -99,6 +99,15 @@ export const products: Product[] = [
     badge: 'Nuevo'
   },
   {
+    id: 'chicken-stroganoff',
+    name: 'Pollo Stroganoff',
+    description: 'Pollo tierno en salsa cremosa de champiñones y crema, servido sobre arroz blanco esponjoso. Un clásico reconfortante',
+    price: 570,
+    category: 'fast-food',
+    image: '/manus-storage/Screenshot_20260610_161127_be5d09d9.png',
+    badge: 'Nuevo'
+  },
+  {
     id: 'pasta-salad-tuna',
     name: 'Ensalada de Pasta con Atún',
     description: 'Ensalada fría de pasta con atún, choclo, arvejas, pimiento rojo, aceitunas y aderezo casero. Fresca y nutritiva',
