@@ -99,6 +99,15 @@ export const products: Product[] = [
     badge: 'Nuevo'
   },
   {
+    id: 'empanadas-horno-fritas',
+    name: 'Empanadas al Horno / Fritas',
+    description: 'Empanadas caseras disponibles al horno o fritas, con rellenos a elección: carne, pollo, jamón y queso. Crujientes por fuera y jugosas por dentro',
+    price: 350,
+    category: 'fast-food',
+    image: '/manus-storage/Screenshot_20260610_161257_560f5356.png',
+    badge: 'Nuevo'
+  },
+  {
     id: 'chicken-wok-vegetables',
     name: 'Pollo con Vegetales al Wok',
     description: 'Pollo salteado al wok con pimientos, chauchas y cebolla en salsa agridulce, tierno y lleno de sabor',
