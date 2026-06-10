@@ -36,13 +36,21 @@ export const products: Product[] = [
     image: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663750402534/PDg6cLEPxJFmuTjguu3mLC/salads-healthy-EFKW9Crjui84rPdty7VLwy.webp'
   },
   {
+    id: 'chicken-lemon-rice',
+    name: 'Pollo al Limón con Arroz',
+    description: 'Pollo jugoso marinado en limón fresco, acompañado de arroz blanco esponjoso y guarnición de limón',
+    price: 520,
+    category: 'savory',
+    image: '/manus-storage/Screenshot_20260610_161621_93cc5762.png',
+    badge: 'Nuevo'
+  },
+  {
     id: 'dessert-combo',
     name: 'Combo de Postres',
     description: 'Selección de postres: brownies, macarons y croissants de chocolate',
     price: 290,
     category: 'sweet',
-    image: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663750402534/PDg6cLEPxJFmuTjguu3mLC/desserts-52vFhZuUaZPasYtLMZTwLJ.webp',
-    badge: 'Nuevo'
+    image: 'https://d2xsxph8kpxj0f.cloudfront.net/310519663750402534/PDg6cLEPxJFmuTjguu3mLC/desserts-52vFhZuUaZPasYtLMZTwLJ.webp'
   }
 ];
 
