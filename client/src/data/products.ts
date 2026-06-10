@@ -99,6 +99,15 @@ export const products: Product[] = [
     badge: 'Nuevo'
   },
   {
+    id: 'beef-tacos',
+    name: 'Tacos de Carne Molida',
+    description: 'Tacos crujientes rellenos de carne molida sazonada con especias, listos para acompañar con tus ingredientes favoritos',
+    price: 390,
+    category: 'fast-food',
+    image: '/manus-storage/Screenshot_20260610_161150_be21c40b.png',
+    badge: 'Nuevo'
+  },
+  {
     id: 'chicken-stroganoff',
     name: 'Pollo Stroganoff',
     description: 'Pollo tierno en salsa cremosa de champiñones y crema, servido sobre arroz blanco esponjoso. Un clásico reconfortante',
