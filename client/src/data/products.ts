@@ -54,6 +54,15 @@ export const products: Product[] = [
     badge: 'Nuevo'
   },
   {
+    id: 'tuna-vegetable-tart',
+    name: 'Tarta de Atún y Vegetales',
+    description: 'Tarta casera rellena de atún fresco, vegetales variados, huevo y queso derretido',
+    price: 520,
+    category: 'fast-food',
+    image: '/manus-storage/Screenshot_20260610_161544_80b50e63.png',
+    badge: 'Nuevo'
+  },
+  {
     id: 'dessert-combo',
     name: 'Combo de Postres',
     description: 'Selección de postres: brownies, macarons y croissants de chocolate',
