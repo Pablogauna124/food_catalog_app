@@ -81,6 +81,15 @@ export const products: Product[] = [
     badge: 'Nuevo'
   },
   {
+    id: 'potato-meat-pie',
+    name: 'Pastel de Papas con Carne',
+    description: 'Pastel casero con base de puré de papas cremoso y relleno de carne molida condimentada al horno',
+    price: 500,
+    category: 'fast-food',
+    image: '/manus-storage/Screenshot_20260610_161451_2cd1f0f9.png',
+    badge: 'Nuevo'
+  },
+  {
     id: 'dessert-combo',
     name: 'Combo de Postres',
     description: 'Selección de postres: brownies, macarons y croissants de chocolate',
