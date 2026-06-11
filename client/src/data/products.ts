@@ -3,7 +3,7 @@ export interface Product {
   name: string;
   description: string;
   price: number;
-  category: 'fast-food' | 'savory' | 'sweet';
+  category: 'fast-food' | 'savory' | 'sweet' | 'sauces';
   image: string;
   badge?: string;
 }
@@ -251,13 +251,33 @@ export const products: Product[] = [
     image: '/manus-storage/Screenshot_20260610_171853_1dbfe029.png',
     badge: 'Nuevo'
   },
+  // Salsas
+  {
+    id: 'salsa-bechamel',
+    name: 'Salsa Bechamel',
+    description: 'Salsa blanca cremosa casera, elaborada con mantequilla, harina y leche. Perfecta para acompanar pastas, ravioles y otros platos. Suave y deliciosa',
+    price: 80,
+    category: 'sauces',
+    image: '/manus-storage/salsa-bechamel_2d2697d0.jpg',
+    badge: 'Nuevo'
+  },
+  {
+    id: 'salsa-bolognesa',
+    name: 'Salsa Bolognesa',
+    description: 'Salsa bolognesa casera con carne molida, tomate, cebolla y especias. Ideal para fideos, ravioles y sorrentinos. Sabrosa y reconfortante',
+    price: 90,
+    category: 'sauces',
+    image: '/manus-storage/salsa-bolognesa_86fe68a8.jpg',
+    badge: 'Nuevo'
+  },
 ];
 
 
 export const categories = [
   { id: 'fast-food', name: 'COMIDAS', icon: '🍔' },
   { id: 'savory', name: 'Viandas Saladas', icon: '🥗' },
-  { id: 'sweet', name: 'Viandas Dulces', icon: '🍰' }
+  { id: 'sweet', name: 'Viandas Dulces', icon: '🍰' },
+  { id: 'sauces', name: 'Salsas', icon: '🍯' }
 ];
 
 // WhatsApp configuration
