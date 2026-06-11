@@ -207,6 +207,15 @@ export const products: Product[] = [
     badge: 'Nuevo'
   },
   {
+    id: 'postres-vasitos',
+    name: 'Postres en Vasitos',
+    description: 'Variedad de postres artesanales en vasitos: Oreo con crema, Durazno con crema, Chocolate triple, Fresa con crema, Limón con crema y más. Deliciosos y frescos',
+    price: 250,
+    category: 'sweet',
+    image: '/manus-storage/postres-vasitos_44e77bc5.jpg',
+    badge: 'Nuevo'
+  },
+  {
     id: 'flan-casero',
     name: 'Flan Casero',
     description: 'Flan casero cremoso con caramelo dorado, presentado en porciones individuales. Suave, delicado y elaborado con ingredientes naturales',
