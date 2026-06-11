@@ -135,6 +135,24 @@ export const products: Product[] = [
     badge: 'Nuevo'
   },
   {
+    id: 'ravioles-caseros',
+    name: 'Ravioles Caseros',
+    description: 'Ravioles caseros rellenos de carne, queso y espinaca, cocidos al dente. Acompañados con salsa bolognesa, bechamel o crema. Tradicionales y deliciosos',
+    price: 510,
+    category: 'fast-food',
+    image: '/manus-storage/ravioles-sorrentinos_dcc76107.jpg',
+    badge: 'Nuevo'
+  },
+  {
+    id: 'sorrentinos-caseros',
+    name: 'Sorrentinos Caseros',
+    description: 'Sorrentinos caseros rellenos de queso, jamón y hierbas, cocidos al dente. Servidos con salsa a elección: bolognesa, bechamel o crema. Suave y reconfortante',
+    price: 530,
+    category: 'fast-food',
+    image: '/manus-storage/sorrentinos_a24e1e14.jpg',
+    badge: 'Nuevo'
+  },
+  {
     id: 'sandwich-milanesa-briosh',
     name: 'Sándwich de Milanesa con Pan Briosh',
     description: 'Milanesa de carne tierna y crocante en pan briosh suave, acompañada de queso derretido, tomate, lechuga y cebolla caramelizada. Delicioso y satisfactorio',
