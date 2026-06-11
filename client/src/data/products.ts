@@ -162,6 +162,15 @@ export const products: Product[] = [
     badge: 'Nuevo'
   },
   {
+    id: 'muffins-caseros',
+    name: 'Muffins Caseros',
+    description: 'Muffins esponjosos y recién horneados, disponibles en sabores variados: chips de chocolate, arándanos, limón y más. Perfectos para el desayuno o la merienda',
+    price: 220,
+    category: 'sweet',
+    image: '/manus-storage/muffins_467ffb3b.jpg',
+    badge: 'Nuevo'
+  },
+  {
     id: 'alfajores-maicena',
     name: 'Alfajores de Maicena',
     description: 'Alfajores caseros de maicena, suaves y delicados, rellenos con dulce de leche y espolvoreados con azúcar impalpable. Irresistibles',
