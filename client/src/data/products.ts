@@ -162,6 +162,15 @@ export const products: Product[] = [
     badge: 'Nuevo'
   },
   {
+    id: 'alfajores-maicena',
+    name: 'Alfajores de Maicena',
+    description: 'Alfajores caseros de maicena, suaves y delicados, rellenos con dulce de leche y espolvoreados con azúcar impalpable. Irresistibles',
+    price: 260,
+    category: 'sweet',
+    image: '/manus-storage/alfajores-maicena_bff1a2a2.jpg',
+    badge: 'Nuevo'
+  },
+  {
     id: 'chocolate-dessert',
     name: 'Postre de Chocolate',
     description: 'Postre en vasito con capas de bizcocho de chocolate, crema de chocolate y perlas crocantes. Irresistible y artesanal',
