@@ -135,6 +135,15 @@ export const products: Product[] = [
     badge: 'Nuevo'
   },
   {
+    id: 'pollo-frito',
+    name: 'Pollo Frito',
+    description: 'Pollo frito crocante por fuera y jugoso por dentro, con apanado especiado y dorado a la perfección. Acompañado de salsa a elección',
+    price: 550,
+    category: 'fast-food',
+    image: '/manus-storage/pollo-frito_d271207f.jpg',
+    badge: 'Nuevo'
+  },
+  {
     id: 'roast-chicken-herbs',
     name: 'Pollo al Horno con Limón y Hierbas',
     description: 'Pollo al horno dorado con marinada de limón, ajo y hierbas aromáticas frescas, jugoso por dentro y crocante por fuera',
