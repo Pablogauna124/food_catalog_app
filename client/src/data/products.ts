@@ -55,7 +55,7 @@ export const products: Product[] = [
   },
   {
     id: 'rice-chicken-curry',
-    name: 'Arroz con Pollo al Curry',
+    name: 'Arroz con Pollo',
     description: 'Arroz aromático con pollo tierno cocinado en salsa de curry con verduras frescas y especias',
     price: 540,
     category: 'fast-food',
