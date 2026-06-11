@@ -135,6 +135,15 @@ export const products: Product[] = [
     badge: 'Nuevo'
   },
   {
+    id: 'mini-hamburguesas',
+    name: 'Mini Hamburguesas',
+    description: 'Porciones de mini hamburguesas caseras con medallones de carne, queso cheddar, lechuga, tomate y salsas. Perfectas para compartir o disfrutar en cualquier momento',
+    price: 480,
+    category: 'fast-food',
+    image: '/manus-storage/mini-hamburguesas_3973c539.jpg',
+    badge: 'Nuevo'
+  },
+  {
     id: 'pollo-frito',
     name: 'Pollo Frito',
     description: 'Pollo frito crocante por fuera y jugoso por dentro, con apanado especiado y dorado a la perfección. Acompañado de salsa a elección',
