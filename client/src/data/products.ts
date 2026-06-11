@@ -44,15 +44,7 @@ export const products: Product[] = [
     image: '/manus-storage/Screenshot_20260610_161610_597bf84c.png',
     badge: 'Nuevo'
   },
-  {
-    id: 'tuna-vegetable-tart',
-    name: 'Tarta de Atún y Vegetales',
-    description: 'Tarta casera rellena de atún fresco, vegetales variados, huevo y queso derretido',
-    price: 520,
-    category: 'fast-food',
-    image: '/manus-storage/Screenshot_20260610_161544_80b50e63.png',
-    badge: 'Nuevo'
-  },
+
   {
     id: 'rice-chicken-curry',
     name: 'Arroz con Pollo',
@@ -62,15 +54,7 @@ export const products: Product[] = [
     image: '/manus-storage/Screenshot_20260610_161526_326d0806.png',
     badge: 'Nuevo'
   },
-  {
-    id: 'beef-stew-potatoes',
-    name: 'Estofado de Carne con Papas',
-    description: 'Estofado casero de carne tierna cocida a fuego lento con papas, zanahorias y hierbas aromáticas',
-    price: 550,
-    category: 'fast-food',
-    image: '/manus-storage/Screenshot_20260610_161511_f4982cf6.png',
-    badge: 'Nuevo'
-  },
+
   {
     id: 'potato-meat-pie',
     name: 'Pastel de Papas con Carne',
