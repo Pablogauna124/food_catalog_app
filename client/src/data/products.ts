@@ -135,6 +135,15 @@ export const products: Product[] = [
     badge: 'Nuevo'
   },
   {
+    id: 'sandwich-milanesa-briosh',
+    name: 'Sándwich de Milanesa con Pan Briosh',
+    description: 'Milanesa de carne tierna y crocante en pan briosh suave, acompañada de queso derretido, tomate, lechuga y cebolla caramelizada. Delicioso y satisfactorio',
+    price: 520,
+    category: 'fast-food',
+    image: '/manus-storage/sandwich-milanesa-briosh_51bde25f.jpg',
+    badge: 'Nuevo'
+  },
+  {
     id: 'mini-hamburguesas',
     name: 'Mini Hamburguesas',
     description: 'Porciones de mini hamburguesas caseras con medallones de carne, queso cheddar, lechuga, tomate y salsas. Perfectas para compartir o disfrutar en cualquier momento',
