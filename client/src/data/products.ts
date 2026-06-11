@@ -162,6 +162,15 @@ export const products: Product[] = [
     badge: 'Nuevo'
   },
   {
+    id: 'flan-casero',
+    name: 'Flan Casero',
+    description: 'Flan casero cremoso con caramelo dorado, presentado en porciones individuales. Suave, delicado y elaborado con ingredientes naturales',
+    price: 230,
+    category: 'sweet',
+    image: '/manus-storage/flan-casero_08d7fffd.jpg',
+    badge: 'Nuevo'
+  },
+  {
     id: 'muffins-caseros',
     name: 'Muffins Caseros',
     description: 'Muffins esponjosos y recién horneados, disponibles en sabores variados: chips de chocolate, arándanos, limón y más. Perfectos para el desayuno o la merienda',
