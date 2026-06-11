@@ -189,15 +189,15 @@ export default function Home() {
 
           {/* Category Tabs */}
           <Tabs value={activeCategory} onValueChange={setActiveCategory} className="w-full">
-            <TabsList className="flex flex-col md:flex-row md:flex-wrap w-full gap-2 md:gap-3 mb-8 bg-transparent p-0">
+            <TabsList className="flex flex-row justify-center w-full gap-4 mb-8 bg-transparent p-0">
               {categories.map((category) => (
                 <TabsTrigger
                   key={category.id}
                   value={category.id}
-                  className="flex-1 md:flex-initial justify-center md:justify-start px-3 md:px-4 py-2 md:py-3 rounded-lg bg-orange-100/70 hover:bg-orange-200/70 text-foreground text-sm md:text-base data-[state=active]:bg-orange-500 data-[state=active]:text-white transition-colors font-medium"
+                  className="flex items-center justify-center w-14 h-14 md:w-16 md:h-16 rounded-full bg-orange-100/70 hover:bg-orange-200/70 text-foreground data-[state=active]:bg-orange-500 data-[state=active]:shadow-lg data-[state=active]:scale-110 transition-all duration-200"
+                  title={category.name}
                 >
-                  <span className="mr-1 md:mr-2 text-base md:text-lg">{category.icon}</span>
-                  <span className="hidden sm:inline">{category.name}</span>
+                  <span className="text-2xl md:text-3xl">{category.icon}</span>
                 </TabsTrigger>
               ))}
             </TabsList>
